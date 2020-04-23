@@ -31,9 +31,7 @@ export default class bookSelf extends Component {
             </div>
           </div>
           <div className="open-search">
-            <button onClick={() => this.setState({ showSearchPage: true })}>
-              Add a book
-            </button>
+            <button onClick={() => this.props.history.push("/search")}></button>
           </div>
         </div>
       </div>
